@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Scheduled flow to check for overdue NeedIt Tasks, close the overdue tasks, update the work notes for the task with a reason, and log the automatic closure</description>
+        <label_cache>[{"name":"3a751333-0baa-4f6f-a938-0e645e014740.property_value","label":"1➛property_value","type":"string","base_type":"string"},{"name":"5e8d32a2-97f4-4ac8-954b-59357678364b.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"864c0d7b-464b-441d-b8ff-a74b76a1d58c.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"466e5c81-d1ff-41bc-9992-52889dfc110f.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"a34e55f7-6534-456b-a979-8c1030d916ae.record.u_needit","label":"4.1➛NeedIt Task Record➛NeedIt","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit_task","column_name":"u_needit"}]</label_cache>
+        <name>Update Overdue Tasks</name>
+        <parent_flow display_value="Update Overdue Tasks">46e63558dba033006b3a487039961997</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-28 14:58:36</sys_created_on>
+        <sys_id>8beb35d8dba033006b3a4870399619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Overdue Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_8beb35d8dba033006b3a4870399619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-28 14:58:36</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
